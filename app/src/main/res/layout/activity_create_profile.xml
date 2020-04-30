@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            android:layout_gravity="center_horizontal"
+
+            android:orientation="horizontal">
+
+            <com.example.finalproject.customfonts.MyTextView_Roboto_Black
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/create_profile"
+                android:textSize="31sp"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            app:civ_border_color="#f05421"
+            app:civ_border_width="2dp"
+            android:id="@+id/pick_image"
+            android:src="@drawable/default_avatar"
+            />
+        <com.example.finalproject.customfonts.EditText_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:hint="@string/name"
+            android:id="@+id/name"
+            android:layout_marginTop="54.7dp"
+            android:layout_marginLeft="34.6dp"
+            android:layout_marginRight="33.6dp"
+            android:textColorHint="#ffffff"
+            android:inputType="text"
+            android:textColor="#ffffff"
+            android:textSize="14.4sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#33ffffff"
+            android:layout_marginLeft="34.6dp"
+            android:layout_marginRight="33.6dp"
+            android:layout_marginTop="6.5dp"/>
+
+
+        <com.example.finalproject.customfonts.EditText_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33.6dp"
+            android:background="#00000000"
+            android:hint="@string/username"
+            android:id="@+id/username"
+            android:layout_marginLeft="34.6dp"
+            android:layout_marginRight="33.6dp"
+            android:textColorHint="#ffffff"
+            android:inputType="text"
+            android:textColor="#ffffff"
+            android:textSize="14.4sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#33ffffff"
+            android:layout_marginLeft="34.6dp"
+            android:layout_marginRight="33.6dp"
+            android:layout_marginTop="6.5dp"/>
+
+        <com.example.finalproject.customfonts.MyTextView_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34.6dp"
+            android:layout_marginRight="33.6dp"
+            android:layout_marginTop="53.8dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center_horizontal"
+            android:padding="16.4dp"
+            android:id="@+id/save_btn"
+            android:text="@string/save"
+            android:textColor="#ffffff"
+            android:textSize="13.3sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

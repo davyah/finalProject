@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "440169982932",
+    "firebase_url": "https://restuarant-review-155a9.firebaseio.com",
+    "project_id": "restuarant-review-155a9",
+    "storage_bucket": "restuarant-review-155a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440169982932:android:7537e85599ed4237678441",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440169982932-1juqfkbobd507sfbuo8bi8unttg3pkcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqKc4IC6U0BCWg2AvVUD5NAcxLNzInzIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440169982932-1juqfkbobd507sfbuo8bi8unttg3pkcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

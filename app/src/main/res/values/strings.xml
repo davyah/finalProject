@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="create_account">Create account</string>
+    <string name="password">Password</string>
+    <string name="retype_pass">Retype password</string>
+    <string name="username">Username</string>
+    <string name="no_match">password must be at least 6 chars</string>
+    <string name="too_short">password is too short</string>
+    <string name="create_profile">Create profile</string>
+    <string name="save">SAVE</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="login">LOGIN</string>
+    <string name="profile">profile</string>
+    <string name="reviews">my reviews</string>
+    <string name="openDrawer">Open drawer</string>
+    <string name="closeDrawer">Close drawer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>

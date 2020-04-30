@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="11dp"
+        android:elevation="5dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    app:civ_border_width="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/res_image"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img1"/>
+
+                <ImageView
+                    android:layout_width="17.3dp"
+                    android:layout_height="14.5dp"
+                    android:src="@drawable/ic_like"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="6.7dp"
+                    android:id="@+id/nearbyimg2" />
+
+            </FrameLayout>
+
+            <com.example.finalproject.customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="14.4sp"
+                android:layout_marginTop="11.5dp"
+                android:text="Cocobolo Poolside \n
+                   Bar + Grill"
+                android:layout_marginLeft="12.5dp"
+                android:id="@+id/res_name"
+                android:textColor="#262628"/>
+
+            <com.example.finalproject.customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="60 Kub Pines Apt. 797"
+                android:textSize="11.5sp"
+                android:textColor="#9b9b9b"
+                android:id="@+id/address"
+                android:layout_marginLeft="12.5dp"
+                android:layout_marginTop="6.3dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="7.8dp"
+                android:layout_marginLeft="12.5dp"
+                android:layout_marginBottom="11.dp">
+
+                <RatingBar
+                    android:id="@+id/rating"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:progressTint="@android:color/holo_red_dark"
+                    android:rating="4"
+                    android:stepSize="0.1" />
+
+                <com.example.finalproject.customfonts.EditText_Roboto_Regular
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="238 reviews"
+                    android:textSize="11.5sp"
+                    android:layout_marginLeft="2.6dp"
+                    android:id="@+id/nearbytext3"
+                    android:textColor="#9b9b9b"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
